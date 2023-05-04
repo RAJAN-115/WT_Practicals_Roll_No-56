@@ -1,0 +1,45 @@
+.container {
+	max-width: 400px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+h1 {
+	font-size: 36px;
+	margin: 20px 0;
+}
+
+.calculator {
+	background-color: #5a5555;
+	padding: 20px;
+	border-radius: 5px;
+}
+
+.display input {
+	width: 100%;
+	font-size: 24px;
+	padding: 10px;
+	box-sizing: border-box;
+	border: none;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	text-align: right;
+}
+
+.buttons button {
+	width: 25%;
+	font-size: 24px;
+	padding: 10px;
+	box-sizing: border-box;
+	border: none;
+	border-radius: 5px;
+	margin: 5px;
+	cursor: pointer;
+	background-color: #e6e6e6;
+	color: #333;
+}
+
+.buttons button:hover {
+	background-color: #201e1e;
+	color: #fff;
+}
